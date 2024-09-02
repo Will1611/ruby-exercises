@@ -1,26 +1,27 @@
 def concatenate_example(string)
   # use concatenation to format the result to be "Classic <string>"
-  "Classic " << string
+  
+  "Classic " + string;
 end
 
 def concatenate(string)
- "Hello ".concat(string).concat("!")
+  "Hello " + string + "!";
 end
 
 def substrings(word)
-  word[0 .. 3]
+  word[0..3];
 end
 
 def capitalize(word)
-  word.capitalize
+  word.capitalize;
 end
 
 def uppercase(string)
-  string.upcase
+  string.upcase;
 end
 
 def downcase(string)
-  string.downcase
+  string.downcase;
 end
 
 def empty_string(string)
@@ -28,13 +29,13 @@ def empty_string(string)
 end
 
 def string_length(string)
-  string.length
+  string.length;
 end
 
 def reverse(string)
-  string.reverse
+  string.reverse;
 end
 
 def space_remover(string)
-  string.gsub!(" ", "")
+  string.gsub(" ", "");
 end
